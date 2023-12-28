@@ -1,17 +1,35 @@
 # Issue Tracker
 
+## Table of content
+
+## Introduction
+
+## screenshots
+
 ### Installation
 
-First install dependencies
+1. git clone the project
+
+```bash
+git clone
+
+```
+
+2. Navigate inside the project directory
+
+```bash
+cd issue-tracker
+
+```
+
+3. install dependencies
 
 ```bash
 npm i
 
 ```
 
-## Getting Started
-
-Run the development server:
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -23,7 +41,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Stack Used:
+### Stack Used on this project:
 
 Radix themes  
 React Hook Forms
