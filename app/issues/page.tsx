@@ -1,4 +1,3 @@
-import React from "react";
 import { Table } from "@radix-ui/themes";
 import { IssueStatusBadge, Link } from "@/app/components";
 import Prisma from "@/prisma/client";
