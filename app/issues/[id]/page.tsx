@@ -4,6 +4,8 @@ import React from "react";
 import { Flex, Heading, Text, Card } from "@radix-ui/themes";
 import { IssueStatusBadge } from "@/app/components/IssueStatusBadge";
 import ReactMarkdown from "react-markdown";
+import delay from "delay";
+
 interface Props {
   params: { id: string };
 }
@@ -15,7 +17,7 @@ const IssueDetailPage = async ({ params }: Props) => {
     where: { id: parseInt(params.id) },
   });
   if (!issue) notFound();
-
+  await delay(2000);
   return (
     <div>
       <Heading>{issue.title}</Heading>
